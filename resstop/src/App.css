@@ -28,6 +28,145 @@
   color: #61dafb;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+
+/* Main layout of the Header portion*/
+.heading {
+  background-color: #F5AD8C;    
+  text-align: center;
+  border-radius: 10px;
+  width: 1900px;
+  padding: 50px;
+  margin: 20px;
+  height: 200px;
+  margin-bottom: 40px;
+}
+
+/* Main layout of header "Res" portion*/
+.Res {
+  color: #E64848;
+  letter-spacing: 6px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 140px;
+}
+
+/* Main layout of header "Stop* portion */
+.Stop {
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 140px;
+  letter-spacing: 6px;
+  text-align: center;
+}
+
+
+h1 {
+  color: rgb(251, 77, 77);
+  font-family: Montserrat;
+  text-align: center;
+  font-size: 90px;
+  margin-bottom: 5px;
+  letter-spacing: 5px;
+  font-weight: 20px;
+}
+
+
+/* Sub-heading */
+.SubHead {
+  color: #EC745C;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin-top: 0;
+  font-size: 26px;
+  margin-bottom: 90px;
+  font-style: italic;
+  word-spacing: 22px;
+}
+
+
+/* For knife and fork vector image*/
+.vector {
+  /* Vector */
+
+  position: absolute;
+  left: 63.54%;
+  right: 32.6%;
+  top: 18.23%;
+  bottom: 82.95%;
+
+  background: #E64848;
+
+}
+
+
+p {
+  color: black;
+  word-spacing: 20px;
+}
+
+
+/* Main Div for Each Restaurant Card */
+.myDiv {
+  background-color: #CFE8A9;    
+  text-align: center;
+  border-radius: 10px;
+  width: 1000px;
+  padding: 50px;
+  margin: 10px;
+  margin-bottom: 30px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Image place holder */
+.rect {
+  background-color: white;    
+  text-align: center;
+  border-radius: 10px;
+  position: static;
+  /* width: 100px;
+  height: 100px; */
+  padding: 70px;
+  margin: -90px;
+  margin-left: 20px; 
+  /* margin-right: 5000px; */
+  /* margin-bottom: 100px; */
+  float: left; 
+}
+
+/* Rating given to each restaurant */
+.rating {
+  color: white;
+  background-color: #3D8361;    
+  text-align: center;
+  border-radius: 10px;
+  position: absolute;
+  /* width: 100px;
+  height: 100px; */
+  font-size: 32px;
+  padding: 17px;
+  margin: -160px;
+  margin-left: 450px;
+  margin-right: 5000px;
+  /* margin-bottom: 5000px; */
+  float: right; 
+}
+
+
+/* For any image to be added later */
+.img {
+  /* background-color: rgb(246, 192, 94);     */
+  text-align: center;
+  /* border-radius: 10px; */
+  width: 1900px;
+  padding: 50px;
+  /* margin: 20px; */
+  margin-left: 500px;
+  /* margin-bottom: 50px; */
+  float: right;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
